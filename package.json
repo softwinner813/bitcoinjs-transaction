@@ -1,0 +1,21 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "This is Test project to test bitcoinjs for bitcoin blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "SoftWinner813",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bip32": "^3.0.1",
+    "bitcoinjs-lib": "^6.0.1",
+    "bitcore-lib": "^8.25.10",
+    "ecpair": "^1.0.1",
+    "http": "*",
+    "https": "^1.0.0",
+    "request-promise-native": "^1.0.9"
+  }
+}
