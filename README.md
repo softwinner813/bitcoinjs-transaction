@@ -3,7 +3,7 @@ BitCoin Transaction via bitcoinjs javascript Library
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-lib.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib)
 
-**A pure and powerful JavaScript Bitcoin library.**
+**A Good and Simple JavaScript Bitcoin Wallet Project.**
 
 ## Description
 This is BitCoin Transaction project for wallet using bitcoinjs library.
