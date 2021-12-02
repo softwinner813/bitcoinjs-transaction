@@ -59,12 +59,12 @@ const { ECPair }  = require('ecpair');
      var hexval = psbt.extractTransaction().toHex();
      console.log("----------------------- Result ------------------------",hexval);
 
-    // const result =  axios({
-    //   method: "POST",
-    //   url: `https://sochain.com/api/v2/send_tx/${hexval}`,
-    //   data: {
-    //     tx_hex: serializedTX,
-    //   },
-    // });
+    const result = await axios({
+      method: "POST",
+      url: `https://chain.so/api/v2/send_tx/BTCTEST`,
+      data: {
+        tx_hex: hexval,
+      },
+    });
 
-    // console.log("\r\n----------- Succussfully Transaction ----------------\r\n", result.data);
+    console.log("\r\n----------- Succussfully Transaction ----------------\r\n", result.data);
